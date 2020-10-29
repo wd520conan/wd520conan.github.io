@@ -26,7 +26,7 @@ function bot_ui_ini() {
     }).then(function () {
         botui.message.add({
             delay: 1100,
-            content: "这里是 Mashiro"
+            content: "这里是 Woody"
         }).then(function () {
             botui.message.add({
                 delay: 1100,
@@ -65,33 +65,33 @@ function bot_ui_ini() {
         secondpart = function () {
             botui.message.add({
                 delay: 1500,
-                content: "目前就读于上海财经大学"
+                content: "目前在成都互联网行业创业"
             }).then(function () {
                 botui.message.add({
                     delay: 1500,
-                    content: "向往技术却误入商科，但后来喜欢上了经济学…"
+                    content: "技术专业却没从事编程，但一直喜欢研究技术类黑科技…"
                 }).then(function () {
                     botui.message.add({
                         delay: 1200,
-                        content: "因为数据分析也需要Coder嘛"
+                        content: "兴趣和MONEY，我全都要！"
                     }).then(function () {
                         botui.message.add({
                             delay: 1500,
-                            content: "主攻 R 语言和 Python，略懂 STATA，偶尔也折腾 HTML/CSS/JavaScript/PHP"
+                            content: "主攻 产品和 项目方向，略懂 运营、营销，偶尔也折腾下代码"
                         }).then(function () {
                             botui.message.add({
                                 delay: 1500,
-                                content: "研究的方向，是经济/金融方向的数据分析（data science）以及机器学习（machine learning）"
+                                content: "目前学习的方向，是数据分析（data science）以及机器学习（machine learning）"
                             }).then(function () {
                                 botui.message.add({
                                     delay: 1800,
-                                    content: "喜欢画画，希望有一天能够被称为画师"
+                                    content: "喜欢剧本杀，希望有一天能够成为侦探"
                                 }).then(function () {
                                     botui.action.button({
                                         delay: 1100,
                                         action: [{
-                                            text: "为什么叫Mashiro呢？ 🤔",
-                                            value: "why-mashiro"
+                                            text: "为什么叫Woody呢？ 🤔",
+                                            value: "why-Woody"
                                         }]
                                     }).then(function (a) {
                                         thirdpart()
@@ -106,13 +106,13 @@ function bot_ui_ini() {
         thirdpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "Mashiro以及站名都来自一部动画，因为和主角有一样的爱好~ 如果有兴趣可以找找首页上的视频~"
+                content: "因为高中被同学起了个外号叫无敌，就一直延续用这个昵称了"
             }).then(function () {
                 botui.action.button({
                     delay: 1500,
                     action: [{
-                        text: "为什么是白猫呢？ 🤔",
-                        value: "why-cat"
+                        text: "为什么是名侦探呢？ 🤔",
+                        value: "why-detective"
                     }]
                 }).then(function (a) {
                     fourthpart()
@@ -122,11 +122,11 @@ function bot_ui_ini() {
         fourthpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "因为对GitHub有种执念… "
+                content: "因为从小喜欢柯南和福尔摩斯… "
             }).then(function () {
                 botui.message.add({
                     delay: 1100,
-                    content: "而且我真的是猫控！"
+                    content: "而且现在做剧本杀项目！"
                 }).then(function () {
                     botui.action.button({
                         delay: 1500,
@@ -143,7 +143,7 @@ function bot_ui_ini() {
         fifthpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "emmmm，看备案信息你就知道了=.= 本来想要zheng.xin的，但50万真买不起。。"
+                content: "emmmm，域名其实是七夕的意思，所以你懂得。"
             }).then(function () {
                 botui.message.add({
                     delay: 1600,
